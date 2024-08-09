@@ -98,12 +98,16 @@ body {
 .banner {
     display: flex;
     justify-content: space-between;
-    max-width: 1442px;
-    margin: 0px auto;
+
+    padding: 0px 240px;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+
 }
 
 .banner-content {
     margin: auto 0px;
+
 }
 
 .banner-content ul li {
@@ -137,7 +141,41 @@ body {
     margin: 0;
 }
 
+.btn-primary {
+    border-radius: 48px;
+    /* Linear */
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%, rgb(255, 66, 165) 87.942%);
+    padding: 21px 40px 21px 40px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+}
 
+.btn-blue {
+    border-radius: 48px;
+    background: rgb(78, 197, 247);
+    padding: 21px 40px 21px 40px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+}
+.button {
+    margin-top: 41px;
+}
+.btn-primary:hover{
+    background: white;
+    border: 2px solid  rgb(255, 66, 165) ;
+    color: rgb(255, 66, 165);
+}
+.btn-blue:hover{
+    background: white;
+    border: 2px solid  rgb(78, 197, 247) ;
+    color: rgb(78, 197, 247);
+}
 /* media query started (mobile devices) */
 
 
@@ -145,6 +183,7 @@ body {
     .nav-container {
         flex-direction: column;
         align-items: center;
+        padding: 0px;
 
     }
 
@@ -162,6 +201,40 @@ body {
 
     .nav-follow {
         margin-bottom: 30px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin-top: 70px;
+        
+        background-image: none;
+        padding: 0px;
+        text-align: center;
+        margin: ;
+    }
+    .banner{
+        padding: 0px;
+    }
+    .banner-image img{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    .banner-title-2{
+        font-size: 4rem;
+    }
+    
+    .banner-title-1{
+        font-size: 3rem;
+    }
+    .banner-content{
+        margin-top: 40px;
+    }
+    .banner-content ul li  {
+        list-style: none;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        
     }
 
 }
