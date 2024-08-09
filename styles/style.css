@@ -83,33 +83,85 @@ body {
 
 .nav-follow :hover {
     font-size: 20px;
-    
+
 }
 
 
+/* nav finished */
+
+
+/* banner section started */
+
+
+
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1442px;
+    margin: 0px auto;
+}
+
+.banner-content {
+    margin: auto 0px;
+}
+
+.banner-content ul li {
+    color: rgb(83, 76, 100);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.banner-title-1 {
+    color: rgb(11, 2, 35);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.banner-title-2 {
+    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+    -webkit-background-clip:
+        text;
+    -webkit-text-fill-color:
+        transparent;
+    background-clip:
+        text;
+    text-fill-color:
+        transparent;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    margin: 0;
+}
 
 
 /* media query started (mobile devices) */
 
 
 @media screen and (max-width: 576px) {
-    .nav-container{
+    .nav-container {
         flex-direction: column;
         align-items: center;
 
     }
-    .nav-details{
+
+    .nav-details {
         flex-direction: column;
         gap: 62px;
     }
-    .nav-links{
+
+    .nav-links {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 36px;
     }
-    .nav-follow{
-        margin-bottom: 30px ;
+
+    .nav-follow {
+        margin-bottom: 30px;
     }
-  
+
 }
