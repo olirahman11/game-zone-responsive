@@ -296,7 +296,7 @@ body {
     }
 
     .banner-content {
-        margin-top: 40px;
+        margin-top: 60px;
     }
 
     .banner-content ul li {
@@ -308,5 +308,27 @@ body {
     }
 
     /* banner section ends */
+
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-image img{
+        width: 100%;
+    }
+    .gamer-content{
+        text-align: center;
+    }
+    .gamer-title{
+        font-size: 2.5rem;
+    }
+    .gamer-description{
+        font-size: 1rem;
+    }
+    .gamer-description-1{
+        font-size: 1.34rem;
+    }
+    .gamer-description-2{
+        font-size: 1.5rem;
+    }
 
 }
