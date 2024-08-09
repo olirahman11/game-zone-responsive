@@ -163,23 +163,84 @@ body {
     font-size: 20px;
     font-weight: 600;
 }
+
 .button {
     margin-top: 41px;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background: white;
-    border: 2px solid  rgb(255, 66, 165) ;
+    border: 2px solid rgb(255, 66, 165);
     color: rgb(255, 66, 165);
 }
-.btn-blue:hover{
+
+.btn-blue:hover {
     background: white;
-    border: 2px solid  rgb(78, 197, 247) ;
+    border: 2px solid rgb(78, 197, 247);
     color: rgb(78, 197, 247);
+}
+
+/*  banner ends */
+
+.main {
+    max-width: 1442px;
+    margin: 0 auto;
+
+}
+
+/* gamer container started */
+
+.gamer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 52px;
+    margin-top: 55px;
+}
+
+.gamer-content {
+
+    text-align: right;
+    margin: auto 0px;
+
+}
+
+.gamer-title {
+    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+    -webkit-background-clip:
+        text;
+    -webkit-text-fill-color:
+        transparent;
+    background-clip:
+        text;
+    text-fill-color:
+        transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.gamer-description {
+    color: rgb(83, 76, 100);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.gamer-description-2{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(83, 76, 100);
+}
+.gamer-description-1{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(83, 76, 100);
 }
 /* media query started (mobile devices) */
 
 
 @media screen and (max-width: 576px) {
+    /* nav section starts */
+
     .nav-container {
         flex-direction: column;
         align-items: center;
@@ -202,39 +263,50 @@ body {
     .nav-follow {
         margin-bottom: 30px;
     }
-    .banner{
+
+    /* nav section ends */
+    /* banner section starts */
+
+    .banner {
         flex-direction: column-reverse;
         margin-top: 70px;
-        
+
         background-image: none;
         padding: 0px;
         text-align: center;
-        margin: ;
+
     }
-    .banner{
+
+    .banner {
         padding: 0px;
     }
-    .banner-image img{
-        width: 90%;
+
+    .banner-image img {
+        width: 100%;
         display: flex;
         justify-content: center;
     }
-    .banner-title-2{
+
+    .banner-title-2 {
         font-size: 4rem;
     }
-    
-    .banner-title-1{
+
+    .banner-title-1 {
         font-size: 3rem;
     }
-    .banner-content{
+
+    .banner-content {
         margin-top: 40px;
     }
-    .banner-content ul li  {
+
+    .banner-content ul li {
         list-style: none;
         font-size: 1rem;
         display: flex;
         justify-content: center;
-        
+
     }
+
+    /* banner section ends */
 
 }
