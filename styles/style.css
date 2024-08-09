@@ -292,6 +292,52 @@ body {
 }
 
 
+/* play instantly offline section start*/
+
+.instant-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.instant-content{
+    margin: auto 0px;
+    text-align: right;
+}
+
+.play-instantly {
+    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+    -webkit-background-clip:
+        text;
+    -webkit-text-fill-color:
+        transparent;
+    background-clip:
+        text;
+    text-fill-color:
+        transparent;
+
+}
+
+.instant-title {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.instant-description {
+    color: rgb(83, 76, 100);
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.small-img{
+    position: relative;
+   top: 100px;
+   left: 170px;
+}
+
+
 /* media query started (mobile devices) */
 
 
@@ -302,7 +348,7 @@ body {
         flex-direction: column;
         align-items: center;
         padding: 0px;
-        
+
 
     }
 
@@ -396,22 +442,27 @@ body {
     .gamer-description-2 {
         font-size: 1.5rem;
     }
-    .games-boxes{
+
+    .games-boxes {
         flex-direction: column;
         gap: 44px;
     }
+
     .box figcaption {
         margin-left: 60px;
         text-align: left;
-        
+
     }
-    .games-content{
+
+    .games-content {
         margin: 0px 30px;
     }
-    .games-description{
+
+    .games-description {
         font-size: 1rem;
     }
-    .games-title{
+
+    .games-title {
         font-size: 2.3rem;
     }
 
