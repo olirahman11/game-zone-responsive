@@ -294,12 +294,13 @@ body {
 
 /* play instantly offline section start*/
 
-.instant-container{
+.instant-container {
     display: flex;
     justify-content: space-between;
     margin-top: 120px;
 }
-.instant-content{
+
+.instant-content {
     margin: auto 0px;
     text-align: right;
 }
@@ -328,14 +329,77 @@ body {
     color: rgb(83, 76, 100);
     font-size: 18px;
     font-weight: 400;
-    
+
 }
 
-.small-img{
+.small-img {
     position: relative;
-   top: 100px;
-   left: 170px;
+    left: 10rem;
 }
+
+
+/* career container */
+
+.career-container {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%, rgb(255, 66, 165) 87.942%);
+    margin-top: 120px;
+}
+
+.career-title {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.career-description {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.career-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.career-list-1 {
+    text-align: left;
+}
+
+.career-list-2 {
+    text-align: right;
+
+}
+
+.career-list-1,
+.career-list-2 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.career-content {
+    margin: auto 0px;
+    margin-left: 240px;
+}
+
+#career-btn {
+    color: rgb(255, 66, 165);
+    background-color: white;
+    border-radius: 48px;
+
+    padding: 21px 40px 21px 40px;
+    border: none;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+#career-btn:hover{
+    border: 2px solid black;
+}
+
 
 
 /* media query started (mobile devices) */
@@ -464,6 +528,30 @@ body {
 
     .games-title {
         font-size: 2.3rem;
+    }
+
+    /* instant game offline section */
+
+    .instant-container {
+        display: none;
+    }
+
+    .career-container {
+        flex-direction: column;
+    }
+
+    .career-image img {
+        width: 100%;
+    }
+
+    .career-content {
+        margin: 30px;
+    }
+
+    .career-list-1,
+    .career-list-2 {
+        font-size: 1rem;
+
     }
 
 }
