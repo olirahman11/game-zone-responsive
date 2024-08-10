@@ -396,10 +396,34 @@ body {
     font-size: 20px;
     font-weight: 600;
 }
-#career-btn:hover{
+
+#career-btn:hover {
     border: 2px solid black;
 }
 
+
+/* games apps container */
+
+.gameapps-container {
+    max-width: 1442px;
+    margin: 120px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    
+}
+
+.game-box img {
+    object-fit: cover;
+}
+
+.game-box {
+    display: flex;
+    gap: 1rem;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    margin: 30px;
+}
 
 
 /* media query started (mobile devices) */
@@ -541,7 +565,8 @@ body {
     }
 
     .career-image img {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .career-content {
@@ -552,6 +577,12 @@ body {
     .career-list-2 {
         font-size: 1rem;
 
+    }
+
+
+    .gameapps-container{
+        display: block;
+        margin: 0 auto;
     }
 
 }
